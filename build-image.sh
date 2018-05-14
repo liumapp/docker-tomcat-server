@@ -12,5 +12,5 @@ echo '$                                                           $'
 echo '============================================================='
 echo '.'
 
-docker pull nginx:1.13
+docker pull tomcat:7.0
 
