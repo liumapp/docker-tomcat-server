@@ -21,8 +21,8 @@ Using docker-compose to deploy Tomcat server in Docker .
 
 	Open your browser , and visit http://localhost:8080					
 
-* use commonds to enter tomcat terminal : 
+* open your browser and visit http://localhost:8080/countuser-1.0-SNAPSHOT/ , you can find something produced by j2ee .		
+
+	use commonds to enter tomcat terminal : 
 
 		docker exec -it 容器ID/容器name /bin/bash	
-
-		
