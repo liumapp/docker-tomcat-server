@@ -4,7 +4,7 @@ services:
   tomcat:
     container_name: tomcat
     restart: always
-    image: tomcat:7.0
+    image: tomcat:8.0
     ports:
       - "8080:8080"
 

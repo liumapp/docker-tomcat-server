@@ -12,5 +12,5 @@ echo '$                                                           $'
 echo '============================================================='
 echo '.'
 
-docker pull tomcat:7.0
+docker pull tomcat:8.0
 
