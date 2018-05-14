@@ -6,9 +6,9 @@ services:
     restart: always
     image: tomcat:8.0
     ports:
-      - "8080:8080"
+      - 8080:8080
+      - 8009:8009
     volumes:
-      - ./webapps:/usr/local/tomcat/webapps/ 
-      - ./conf:/usr/local/tocmat/conf/ 
-
+      - ./webapps/countuser-1.0-SNAPSHOT.war:/usr/local/tomcat/webapps/countuser-1.0-SNAPSHOT.war
+      - ./conf/server.xml:/usr/local/tomcat/conf/server.xml
  

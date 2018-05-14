@@ -20,3 +20,9 @@ Using docker-compose to deploy Tomcat server in Docker .
 		docker-compose up -d 
 
 	Open your browser , and visit http://localhost:8080					
+
+* use commonds to enter tomcat terminal : 
+
+		docker exec -it 容器ID/容器name /bin/bash	
+
+		
